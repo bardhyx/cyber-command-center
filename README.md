@@ -7,32 +7,72 @@
 
 
 
-# Hi, I'm Bardhyl 👋
+Cyber Command Center
 
-**Network & IT Engineer** · I build web tools for network engineers and IT professionals.
+Security Operations Dashboard
 
-I'm interested in networking, cybersecurity, and automating everyday infrastructure work.
+A security operations dashboard for monitoring threats, alerts and incidents in one place. Built for SOC analysts and IT security teams, it runs directly in your browser.
 
----
+⚠️ Demo / early version (v1.0.0) Cyber Command Center is currently a demo project and still in active development. All data shown is fictional demo data: alerts, incidents, threats, IP addresses and statistics are sample content and do not represent real events or real systems. The project is not yet connected to real security tools or data sources.
 
-## 🚀 Project
+🔗 Repository: https://github.com/bardhyx/CYBER-COMMAND-CENTER
 
-### 🛡️ Cyber Command Center
-Security operations dashboard for monitoring and managing cybersecurity activity in one place.
-- [Main feature 1 – e.g. threat and alert overview]
-- [Main feature 2 – e.g. incident tracking]
-- [Main feature 3 – e.g. vulnerability / CVE monitoring]
-- [Technologies used]
+🚀 Getting Started (no installation needed)
 
+You don't need to install anything: no frameworks, no dependencies, no server.
 
----
+Option 1: Download ZIP (easiest)
+Open the repository: https://github.com/bardhyx/CYBER-COMMAND-CENTER
+Click the green Code button, then Download ZIP
+Extract the ZIP file (right-click → Extract All)
+Open the extracted folder and double-click index.html
 
-## 🛠️ Tech Stack
-`HTML` · `CSS` · `JavaScript` · `SVG` · `JSON` · `Git` · `GitHub`
+The dashboard opens in your browser and is ready to use.
 
-## 🌐 Networking & Security
-`Cisco` · `MikroTik` · `FortiGate` · `Juniper` · `Aruba` · `BGP` · `OSPF` · `VLAN` · `IPsec` · `Firewall` · `SOC` · `Threat Intelligence`
+Option 2: Git clone
+bash
+git clone https://github.com/bardhyx/CYBER-COMMAND-CENTER.git
+cd CYBER-COMMAND-CENTER
 
----
+Then open index.html in your browser.
 
-⭐ If you like one of these projects, give its repository a star.
+Optional: run with a local server
+bash
+python -m http.server 8080
+
+Then open http://localhost:8080 in your browser.
+
+✨ Features
+[Feature 1, e.g. overview of alerts and threat levels]
+[Feature 2, e.g. incident tracking]
+[Feature 3, e.g. vulnerability / CVE monitoring]
+[Feature 4, e.g. threat intelligence panel]
+[Feature 5, e.g. charts and statistics]
+Responsive design
+📁 Project Structure
+text
+index.html      Main page
+css/            Styles
+js/             Application logic
+data/           Demo data
+
+[Update this section to match the actual files in the project.]
+
+🔒 Security
+The dashboard only displays demo data. It does not connect to real systems, scan networks or execute commands.
+Everything runs locally in your browser. No data is sent anywhere.
+🗺️ Roadmap
+Connect to real data sources (SIEM, threat intelligence feeds, vulnerability databases)
+More dashboards and reports
+User roles and authentication (with a backend)
+🤝 Contributing
+
+Feedback, bug reports and suggestions are welcome. Open an Issue or send a Pull Request.
+
+If you like this project, please give it a ⭐ on GitHub!
+
+📄 License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+© 2026 Bardhyl
