@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="blue">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Cyber Command Center</title>
+<meta name="description" content="Cyber Command Center — a simulated Security Operations Center (SOC) dashboard: live threat map, network topology, SIEM event stream, incident response, attack simulator, MITRE ATT&CK and an interactive terminal." />
+<meta name="theme-color" content="#05070d" />
+<meta name="color-scheme" content="dark" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%2305070d'/%3E%3Cpath d='M50 14 L82 26 v24c0 20-13 32-32 38-19-6-32-18-32-38V26z' fill='none' stroke='%2322e0c8' stroke-width='7' stroke-linejoin='round'/%3E%3Ccircle cx='50' cy='46' r='9' fill='none' stroke='%2322e0c8' stroke-width='6'/%3E%3Cpath d='M50 55 v14' stroke='%2322e0c8' stroke-width='6' stroke-linecap='round'/%3E%3C/svg%3E" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="bg-fx" aria-hidden="true"></div>
+
+<!-- BOOT -->
+<div id="boot">
+  <div class="boot-logo">
+    <div class="boot-ring"></div>
+    <svg viewBox="0 0 100 100" fill="none"><path d="M50 14 L82 26 v24c0 20-13 32-32 38-19-6-32-18-32-38V26z" stroke="currentColor" stroke-width="6" stroke-linejoin="round" style="color:var(--acc)"/><circle cx="50" cy="46" r="9" stroke="var(--acc)" stroke-width="5"/><path d="M50 55 v14" stroke="var(--acc)" stroke-width="5" stroke-linecap="round"/></svg>
+  </div>
+  <div class="boot-title">Cyber Command Center</div>
+  <div class="boot-log" id="bootLog"></div>
+  <div class="boot-bar"><i id="bootBar"></i></div>
+</div>
+
+<div id="app" aria-hidden="true">
+  <!-- Sidebar / Topbar / Main injected by JS -->
+  <aside class="sidebar" id="sidebar"></aside>
+  <header class="topbar" id="topbar"></header>
+  <main class="main" id="main" tabindex="-1"></main>
+</div>
+
+<div id="toasts" aria-live="polite" aria-atomic="false"></div>
+<div class="scanline" id="scanline" aria-hidden="true"></div>
+<div id="classified" aria-hidden="true"></div>
+<script src="script.js"></script>
+</body>
+</html>
